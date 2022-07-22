@@ -1,0 +1,291 @@
+body {
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    top: 0%;
+    background-color: rgb(33, 163, 133);
+    box-shadow: 0px 0px 9px 9px rgba(0, 0, 0, 0.32);
+}
+
+.logo {
+    height: 110px;
+    width: 110px;
+    padding: 0%;
+    margin: 0%;
+}
+
+.div-nav-bar {
+    width: 30%;
+    align-items: center;
+}
+
+.nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+}
+
+.fa-bag-shopping {
+    color: black;
+}
+
+.fa-bag-shopping:hover {
+    color: white;
+}
+
+a {
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 0.9em;
+}
+
+a:hover {
+    color: white;
+}
+
+#barra-header{
+    height: 30px;
+    width: 1.5px;
+    border-width: 0;
+    background-color: black;
+    padding: 0%;
+    margin: 0%;
+}
+
+.icons-ing-bag{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 125px;
+}
+
+h1 {
+    text-align: center;
+    height: 60px;
+    background-color: rgb(244, 244, 244);
+    margin: 0%;
+    line-height: 60px;
+}
+
+.acceso-cliente {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 80%;
+    text-align: left;
+    margin-left: 10%;
+    margin-top: 50px;
+}
+
+input {
+    height: 45px;
+}
+
+.inicio-sesion {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 8px;
+}
+
+.registrarse {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+p{
+    line-height: 22px;
+}
+
+button {
+    background-color: rgb(33, 163, 133);
+    height: 45px;
+    font-size: 1em;
+    text-transform: uppercase;
+    border-style: none;
+    border-radius: 3px;
+    color: white;
+    margin-top: 10px;
+    cursor: pointer;
+    align-items: center;
+}
+
+button:hover {
+    background-color: white;
+    border-style: solid;
+    border-color: rgb(33, 163, 133);
+    color: rgb(33, 163, 133);
+}
+
+.boton-register{
+    width: 95.5%;
+}
+
+.forget {
+    text-transform: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.forget:hover {
+    color: black;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(33, 163, 133);
+    margin-top: 108px;
+}
+
+.dietetica-footer {
+    margin-left: 200px;
+}
+
+.titulo-footer {
+    font-size: 2.2em;
+    font-weight: 900;
+    color: rgb(115, 210, 143);
+    margin: 0%;
+}
+
+.titulo-footer2 {
+    font-size: 1.6em;
+    color: rgb(137, 255, 170);
+    margin: 0%;
+}
+
+.logo-mayor {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    line-height: 30px;
+    gap: 10px;
+}
+
+.container-logo {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(115, 210, 143);
+    border-radius: 4px;
+}
+
+.logo-footer {
+    height: 30px;
+    width: 30px;
+    margin: 5px;
+}
+
+h6{
+    margin: 0%;
+}
+
+.derecha-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-end;
+    gap: 15px;
+    margin-right: 20px;
+}
+
+::-webkit-scrollbar {
+    background-color: white;
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgb(33, 163, 133);
+}
+
+@media (max-width:767px) {
+    .icons-ing-bag{
+        font-size: 0.8em;
+        width: 100px;
+    }
+
+    }
+
+@media (max-width:1030px){
+    footer {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .dietetica-footer {
+        margin: 0%;
+    }
+
+    .titulo-footer {
+        font-size: 1.8em;
+        text-align: center;
+    }
+
+    .titulo-footer2 {
+        font-size: 1.2em;
+        text-align: center;
+    }
+
+    .container-logo {
+        width: 30px;
+        height: 30px;
+    }
+
+    .logo-footer {
+        height: 20px;
+        width: 20px;
+    }
+
+    .derecha-footer {
+        align-items: center;
+        margin-right: 0%;
+        margin-top: 7px;
+    }
+
+    h6 {
+        text-align: center;
+    }
+}
+
+@media (max-width:900px){
+    .acceso-cliente{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    .inicio-sesion{
+        align-items: center;
+    }
+
+    .registrarse{
+        align-items: center;
+        text-align: center;
+    }
+}
