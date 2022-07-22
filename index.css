@@ -231,10 +231,8 @@ hr {
     color: white;
 }
 
-#oferta {}
-
-.oferta {
-    margin-top: 100px;
+#oferta {
+    margin-top: 150px;
 }
 
 .oferta-section {
@@ -325,7 +323,7 @@ button:hover {
 }
 
 #contacto {
-    margin-top: 200px;
+    margin-top: 150px;
     margin-bottom: 70px;
 }
 
