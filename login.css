@@ -288,4 +288,52 @@ h6{
         align-items: center;
         text-align: center;
     }
+
+    .label{
+        text-align: center;
+    }
+}
+
+@media (max-width:770px){
+
+    h2{
+        text-align: center;
+    }
+
+    .acceso-cliente{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        margin-left: 0%;
+        width: 100%;
+    }
+
+    .inicio-sesion{
+        align-items: center;
+    }
+
+    .registrarse{
+        align-items: center;
+        text-align: center;
+    }
+
+    .label{
+        text-align: center;
+    }
+}
+
+@media (max-width:435px){
+    h2{
+        text-align: center;
+    }
+
+    label{
+        text-align: center;
+    }
+}
+
+@media(max-width:560px){
+    .forget{
+        text-align:center ;
+    }
 }
